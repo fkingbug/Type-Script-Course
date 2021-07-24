@@ -44,6 +44,7 @@ let isTwo: boolean;
 for (let i = 0; i < words.length; i++) {
   if (words[i] === 'two') {
     isTwo = true;
+    break;
   }
 }
 
